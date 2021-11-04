@@ -882,7 +882,7 @@ const IconList = {
 /* harmony default export */ var src_0 = ({
   install (Vue) {
     for (var k in IconList) {
-      Vue.component(k, IconList[key])
+      Vue.component(k, IconList[k])
     }
   }
 });
