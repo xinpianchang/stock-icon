@@ -34,5 +34,15 @@ export default {
 }
 
 export {
-  IconBankGongShang
+  IconBankGongShang,
+  IconArrowDown,
+  IconCart,
+  IconDownload,
+  IconQuestion,
+  IconQzone,
+  IconWeibo,
+  IconWeixin,
+  IconRefresh,
+  IconStar,
+  IconStarSelected
 }
