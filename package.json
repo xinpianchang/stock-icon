@@ -1,0 +1,47 @@
+{
+  "name": "stock-icon",
+  "version": "0.0.1",
+  "description": "icons used in nuxt-tailvue",
+  "main": "dist/stock-icon.umd.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "dist/stock-icon.umd.min.js",
+    "dist/stock-icon.css",
+    "types/"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "vue-cli-service build --target lib --name stock-icon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinpianchang/stock-icon"
+  },
+  "keywords": [
+    "vue",
+    "icon"
+  ],
+  "author": "xinpianchang_fe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xinpianchang/stock-icon"
+  },
+  "homepage": "https://github.com/xinpianchang/stock-icon",
+  "devDependencies": {
+    "@akryum/vue-cli-plugin-ssr": "~0.6.0",
+    "@babel/preset-env": "^7.11.0",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@vue/babel-preset-app": "^4.5.4",
+    "@vue/cli-service": "^4.5.4",
+    "@vue/test-utils": "^1.0.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.7.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "jest": "^26.4.2",
+    "vue": "^2.6.12",
+    "vue-jest": "^3.0.6",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
