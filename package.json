@@ -1,6 +1,6 @@
 {
   "name": "stock-icon",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "icons used in nuxt-tailvue",
   "main": "dist/stock-icon.umd.js",
   "types": "types/index.d.ts",
@@ -10,6 +10,7 @@
     "types/"
   ],
   "scripts": {
+    "prepublish": "npm run build",
     "test": "jest",
     "build": "vue-cli-service build --target lib --name stock-icon src/index.js"
   },
