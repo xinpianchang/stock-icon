@@ -9,6 +9,16 @@ import IconWeixin from './IconWeixin.vue'
 import IconRefresh from './IconRefresh.vue'
 import IconStar from './IconStar.vue'
 import IconStarSelected from './IconStarSelected.vue'
+import IconYen from './IconYen.vue'
+import IconYenWhite from './IconYenWhite.vue'
+import IconLogoRed from './IconLogoRed.vue'
+import IconLogoWhite from './IconLogoWhite.vue'
+import IconVipLogo from './IconVipLogo.vue'
+import IconAuth from './IconAuth.vue'
+import IconFree from './IconFree.vue'
+import IconArrow from './IconArrow.vue'
+import IconGratis from './IconGratis.vue'
+import IconSearch from './IconSearch.vue'
 
 
 const IconList = {
@@ -22,7 +32,17 @@ const IconList = {
   IconWeixin: IconWeixin,
   IconRefresh: IconRefresh,
   IconStar: IconStar,
-  IconStarSelected: IconStarSelected
+  IconStarSelected: IconStarSelected,
+  IconYen: IconYen,
+  IconYenWhite: IconYenWhite,
+  IconLogoRed: IconLogoRed,
+  IconLogoWhite: IconLogoWhite,
+  IconVipLogo: IconVipLogo,
+  IconAuth: IconAuth,
+  IconFree: IconFree,
+  IconArrow: IconArrow,
+  IconGratis: IconGratis,
+  IconSearch: IconSearch
 }
 
 export default {
@@ -44,5 +64,15 @@ export {
   IconWeixin,
   IconRefresh,
   IconStar,
-  IconStarSelected
+  IconStarSelected,
+  IconYen,
+  IconYenWhite,
+  IconLogoRed,
+  IconLogoWhite,
+  IconVipLogo,
+  IconAuth,
+  IconFree,
+  IconArrow,
+  IconGratis,
+  IconSearch
 }
