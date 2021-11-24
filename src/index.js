@@ -19,7 +19,8 @@ import IconFree from './IconFree.vue'
 import IconArrow from './IconArrow.vue'
 import IconGratis from './IconGratis.vue'
 import IconSearch from './IconSearch.vue'
-
+import Iconcopyright from './Iconcopyright.vue'
+import IconVipFree from './IconVipFree.vue'
 
 const IconList = {
   IconBankGongShang: IconBankGongShang,
@@ -42,11 +43,13 @@ const IconList = {
   IconFree: IconFree,
   IconArrow: IconArrow,
   IconGratis: IconGratis,
-  IconSearch: IconSearch
+  IconSearch: IconSearch,
+  Iconcopyright: Iconcopyright,
+  IconVipFree:IconVipFree
 }
 
 export default {
-  install (Vue) {
+  install(Vue) {
     for (var k in IconList) {
       Vue.component(k, IconList[k])
     }
@@ -74,5 +77,7 @@ export {
   IconFree,
   IconArrow,
   IconGratis,
-  IconSearch
+  IconSearch,
+  Iconcopyright,
+  IconVipFree
 }
