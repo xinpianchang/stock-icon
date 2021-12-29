@@ -21,6 +21,7 @@ import IconGratis from './IconGratis.vue'
 import IconSearch from './IconSearch.vue'
 import Iconcopyright from './Iconcopyright.vue'
 import IconVipFree from './IconVipFree.vue'
+import IconModalClose from './IconModalClose.vue'
 
 const IconList = {
   IconBankGongShang: IconBankGongShang,
@@ -45,7 +46,8 @@ const IconList = {
   IconGratis: IconGratis,
   IconSearch: IconSearch,
   Iconcopyright: Iconcopyright,
-  IconVipFree:IconVipFree
+  IconVipFree:IconVipFree,
+  IconModalClose: IconModalClose
 }
 
 export default {
@@ -79,5 +81,6 @@ export {
   IconGratis,
   IconSearch,
   Iconcopyright,
-  IconVipFree
+  IconVipFree,
+  IconModalClose 
 }
