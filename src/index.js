@@ -23,7 +23,7 @@ import Iconcopyright from './Iconcopyright.vue'
 import IconVipFree from './IconVipFree.vue'
 import IconModalClose from './IconModalClose.vue'
 import IconCommonSearch from './IconCommonSearch.vue'
-import IconSearchClear from './IconSearchClear.vue'
+import IconSearchClear from './IconSearchClear'
 
 const IconList = {
   IconBankGongShang: IconBankGongShang,
