@@ -82,5 +82,5 @@ export {
   IconSearch,
   Iconcopyright,
   IconVipFree,
-  IconModalClose
+  IconModalClose 
 }
